@@ -54,7 +54,8 @@
   .site-nav .item {
     margin-right: 40px;
     }
- .site-nav .item: :last-child {
+
+ .site-nav .item :last-child {
   margin-right: 0;
  }
 
@@ -62,9 +63,9 @@
   display: flex;
  }
 
- .inform .item + .item {
+ /*.inform .item:not(:last-child) {
   margin-left: 20px;
- }
+ }*/
 
   .link-current {
     color:var(--accent-color);
