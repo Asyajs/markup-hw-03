@@ -13,53 +13,62 @@
   }
 
   /* body-list*/
-  body {
-    color: var(--main-text-color);
-    font-family: Roboto, sans-serif;
-    background-color: var(--main-bg-color);
-    font-weight: 400;
-    line-height: 1.71;
-    font-size: 14px;
-    font-style: normal;
-    letter-spacing: 0.03em;
-  }
+
+body {
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-bg-color);
+  font-weight: 400;
+  line-height: 1.71;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
 
   /* top line bg */
+  
+  .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
 
   .page-header {
-    background-color: var(--main-bg-color);
-    display:flex;
-    align-items: center;
-    height: 80px;
+  background-color: var(--main-bg-color);
+  display:flex;
+  align-items: center;
+  height: 80px;
   }
 
   ul {
-    list-style: none;
+  list-style: none;
   }
 
   a {
-    text-decoration: none;
+  text-decoration: none;
   }
 
   .logo {
-    font-family: Raleway;
-    text-decoration: none;
-    color: var(--main-text-color);
-    margin-right: 15px;
+  font-family: Raleway;
+  text-decoration: none;
+  color: var(--main-text-color);
+  margin-right: 15px;
   }
 
   .logo-accent {
-    color: var(--accent-color);
+  color: var(--accent-color);
   }
 
   .site-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
   }
 
   .site-nav .item {
-    margin-right: 90px;
+  margin-right: 90px;
   }
 
  .site-nav .item :last-child {
@@ -67,30 +76,30 @@
   }
 
  .inform {
-    display: flex;
-    margin-left: auto;
+  display: flex;
+  margin-left: auto;
   }
 
   .inform .item:not(:last-child) {
-    margin-right: 50px;
+  margin-right: 50px;
   }
 
   .continer-head {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   }
 
 
   .link-current {
-    color:var(--accent-color);
+  color:var(--accent-color);
   }
 
   .site-nav-link {
-    color: var(--main-text-color);
+  color: var(--main-text-color);
   }
 
   .site-nav-link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
   }
 
   .inform-link {
@@ -98,18 +107,18 @@
   }
 
   .inform-link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
   }
 
   .main-section {
-    background-color: var(--footer-bg-color);
+  background-color: var(--footer-bg-color);
   }
 
   .section-name {
-    font-weight: 900;
-    font-size: 44px;
-    line-height:1.36;
-    color: var(--main-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height:1.36;
+  color: var(--main-bg-color);
   }
 
   button {
@@ -119,9 +128,9 @@
   }
 
   .section-title {
-    line-height:1.14;
-    letter-spacing: 0.03em;
-    color:var(--main-text-color);
+  line-height:1.14;
+  letter-spacing: 0.03em;
+  color:var(--main-text-color);
   }
 
   .section-small {
@@ -136,58 +145,58 @@
   color: var(--main-text-color);
   }
   .section-team {
-    background-color: var(--secondary-bg-color);
+  background-color: var(--secondary-bg-color);
   }
   .section-footer {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
   }
 
   .section-roll {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   }
 
   .section-indent {
-    color: var(--secondary-text-color);
-    font-size: 16px;
-    line-height: 1.18;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
   }
 
   /*footer*/
   .logo-footer {
-      color: var(--accent-color);
+  color: var(--accent-color);
   }
   .footer-logo {
-    color: #ffffff;
+  color: #ffffff;
   }
   .footer-list {
   background-color: var(--footer-bg-color);
   }
 
   .address-footer {
-    color: var(--main-bg-color);
-    font-style: normal;
+  color: var(--main-bg-color);
+  font-style: normal;
   }
 
   .address-contact {
-    color: var(--secondary-text-color);
-    font-style: normal;
+  color: var(--secondary-text-color);
+  font-style: normal;
   }
 
   /**portfolio**/
   .section-descrip {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--main-text-color);
   }
   .section-apps {
-    font-size: 16px;
-    line-height: 1.8;
-    color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--secondary-text-color);
   }
