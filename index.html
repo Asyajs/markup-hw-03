@@ -6,10 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
-  rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" 
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 </head>
@@ -38,7 +36,7 @@
   </header>
 
   <main>
-    
+
     <!--основа сайта-->
 
     <div class="content">
@@ -49,12 +47,13 @@
     </div>
 
     <!--Секция 1 -->
-
-    <section class="section-hang">
+    <div class="container">
+      <section class="section-hang">
       <ul class="features">
         <li class="item">
           <h3 class="section-title">Внимание к деталям</h3>
-          <p class="section-small">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          <p class="section-small">Идейные соображения, а также начало повседневной работы по формированию позиции.
+          </p>
         </li>
         <li class="item">
           <h3 class="section-title">Пунктуальность</h3>
@@ -71,12 +70,14 @@
           <p class="section-small">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
       </ul>
-    </section>
-    <!--Секция 2-->
+      </section>
+    </div>
 
-    <section class="section-work">
+    <!--Секция 2-->
+    <div class="container">
+      <section class="section-work">
       <h2 class="section-progect">Чем мы занимаемся</h2>
-      <ul>
+      <ul class="example">
         <li>
           <img src="./images/work1.jpg" alt="writing code" width="370" />
         </li>
@@ -88,43 +89,49 @@
         </li>
       </ul>
     </section>
-    <section class="section-team">
-      <h2 class="section-footer">Наша команда</h2>
-      <ul>
-        <li>
-          <img!1 src="./images/person4.jpg" alt="Product Designer" width="370" />
-          <h3 class="section-roll">Игорь Демьяненко</h3>
-          <p>Product Designer</p>
-        </li>
-        <li>
-          <img src="./images/person2.jpg" alt="Frontend Developer" width="370" />
-          <h3 class="section-roll">Ольга Репина</h3>
-          <p class="section-indent">Frontend Developer</p>
-        </li>
-        <li>
-          <img src="./images/person3.jpg" alt="Marketing" width="370" />
-          <h3 class="section-roll">Николай Тарасов</h3>
-          <p class="section-indent">Marketing</p>
-        </li>
-        <li>
-          <img src="./images/person1.jpg" alt="UI Designer" width="370" />
-          <h3 class="section-roll">Михаил Ермаков</h3>
-          <p class="section-indent">UI Designer</p>
-      </ul>
-    </section>
-  </main>
-  <!--футер сайта-->
+    </div>
 
-  <footer class="footer-list">
-    <span class="logo-footer">Web</span><span class="footer-logo">Studio</span>
-    <address>
+    <!--team-->
+
+    <h2 class="section-footer">Наша команда</h2>
+    <div class="section-team">
       <ul>
-        <li class="address-footer">г. Киев, пр-т Леси Украинки, 26</li>
-        <li class="address-contact">info@example.com</li>
-        <li class="address-contact">+38 099 111 11 11</li>
-      </ul>
-    </address>
-  </footer>
+        <li>
+        <img src="./images/person4.jpg" alt="Product Designer" width="370" />
+        <h3 class="section-roll">Игорь Демьяненко</h3>
+        <p class="section-indent">Product Designer</p>
+      </li>
+      <li>
+        <img src="./images/person2.jpg" alt="Frontend Developer" width="370" />
+        <h3 class="section-roll">Ольга Репина</h3>
+        <p class="section-indent">Frontend Developer</p>
+      </li>
+      <li>
+        <img src="./images/person3.jpg" alt="Marketing" width="370" />
+        <h3 class="section-roll">Николай Тарасов</h3>
+        <p class="section-indent">Marketing</p>
+      </li>
+      <li>
+        <img src="./images/person1.jpg" alt="UI Designer" width="370" />
+        <h3 class="section-roll">Михаил Ермаков</h3>
+        <p class="section-indent">UI Designer</p>
+    </ul>
+  </div>
+  </main>
+
+  <!--футер сайта-->
+  <div class="container">
+  <footer class="footer-list">
+  <span class="logo-footer">Web</span><span class="footer-logo">Studio</span>
+  <address>
+    <ul>
+      <li class="address-footer">г. Киев, пр-т Леси Украинки, 26</li>
+      <li class="address-contact">info@example.com</li>
+      <li class="address-contact">+38 099 111 11 11</li>
+    </ul>
+  </address>
+</footer>
+</div>
 </body>
 
 </html>

@@ -153,6 +153,15 @@ body {
   color: var(--secondary-text-color);
   }
 
+  /*section 2*/
+
+  .example {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  
+
   .section-progect {
   font-weight: 700;
   font-size: 36px;
@@ -184,8 +193,14 @@ body {
   }
 
   /*footer*/
+
+  .section-team >ul {
+  display: flex;
+  }
+
   .logo-footer {
   color: var(--accent-color);
+  margin-left: 30px;
   }
   .footer-logo {
   color: #ffffff;
