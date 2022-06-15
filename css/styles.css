@@ -110,6 +110,12 @@ body {
   color: var(--accent-color);
   }
 
+/* main section*/
+
+  .content {
+  text-align: center;
+  }
+
   .main-section {
   background-color: var(--footer-bg-color);
   }
@@ -127,6 +133,16 @@ body {
   cursor: pointer;
   }
 
+  .features {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  }
+
+  .features .item {
+    width: 300px;
+  }
+  
   .section-title {
   line-height:1.14;
   letter-spacing: 0.03em;
