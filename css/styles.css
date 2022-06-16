@@ -270,3 +270,8 @@ button {
   display:flex;
   flex-wrap: wrap;
 }
+
+.item{
+  margin-right: 30px;
+}
+
