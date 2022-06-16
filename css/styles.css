@@ -230,7 +230,7 @@ button {
   /**portfolio**/
 
 .section {
-    padding: 94px;
+    padding: 94px, 0px;
 }
 
 .section-descrip {
@@ -266,7 +266,12 @@ button {
   margin-right: auto;
 }
 
-.item{
+img {
+  display: block;
+  max-width: 100%;
+
+}
+.holder > .item{
   margin-right: 30px;
   margin-bottom: 30px;
   justify-content:center
@@ -275,6 +280,7 @@ button {
 .holder {
   display:flex;
   flex-wrap: wrap;
+  flex-basis: calc(100% /3-30px);
 }
 
 .holder div {
