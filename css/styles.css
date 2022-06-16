@@ -164,7 +164,7 @@ button {
 .example {
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
+
 }
   
 
@@ -209,10 +209,12 @@ button {
 .logo-footer {
   color: var(--accent-color);
   margin-left: 30px;
+  
 }
 
 .footer-logo {
   color: #ffffff;
+ 
 }
 
 .footer-list {
@@ -253,4 +255,18 @@ button {
   justify-content: center;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.container-page {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.holder {
+  display:flex;
+  flex-wrap: wrap;
 }
