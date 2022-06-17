@@ -73,6 +73,7 @@ text-decoration: none;
 
 .logo-accent {
   color: var(--accent-color);
+
 }
 
 .site-nav {
@@ -143,6 +144,10 @@ button {
   background: var(--accent-color);
   color: var(--main-bg-color);
   cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .features {
@@ -159,8 +164,12 @@ button {
   line-height:1.14;
   letter-spacing: 0.03em;
   color:var(--main-text-color);
+  padding-left: 15px;
 }
 
+.section-title:not(:last-child) {
+  padding-left: 0;
+} 
 .section-small {
   color: var(--secondary-text-color);
 }
@@ -181,6 +190,9 @@ button {
   text-align: center;
   color: var(--main-text-color);
 }
+
+/* team */
+
 .section-team {
   background-color: var(--secondary-bg-color);
 }
@@ -205,26 +217,23 @@ button {
   line-height: 1.18;
 }
 
-  /*footer*/
-
 .section-team-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  text-align: center ;
 }
-
-.logo-footer {
-  color: var(--accent-color);
-  margin-left: 30px;
-  
-}
-
-.footer-logo {
-  color: #ffffff;
- 
-}
+/*footer*/
 
 .footer-list {
   background-color: var(--footer-bg-color);
+}
+.logo-footer {
+  color: #EEEEEE;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 15px ;
 }
 
 .address-footer {
@@ -237,10 +246,23 @@ button {
   font-style: normal;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.buttons .item {
+  height: 73px;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
   /**portfolio**/
 
 .section {
     padding: 94px, 0px;
+    margin top: 50px;
 }
 
 .section-descrip {
@@ -256,32 +278,20 @@ button {
   color: var(--secondary-text-color);
 }
 
-.buttoms {
-  display: flex;
-  justify-content: center;
-}
-
-.buttoms .item{
-  height: 73;
-  justify-content: center;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-/* .container-page {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 img {
   display: block;
   max-width: 100%;
-
 }
+
+.holder {
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
 .holder > .item{
+  flex-basis: calc(100% /3-30px);
   margin-right: 30px;
   margin-bottom: 30px;
   justify-content:center
@@ -289,12 +299,6 @@ img {
 
 .item:nth-child(3){
   margin-right: 0px;
-}
-
-.holder {
-  display:flex;
-  flex-wrap: wrap;
-  flex-basis: calc(100% /3-30px);
 }
 
 .holder div {
