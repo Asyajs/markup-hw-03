@@ -197,31 +197,50 @@ button {
   background-color: var(--secondary-bg-color);
 }
 
-.section-team-list {
-  background-color: var(--main-bg-color);
+.team-set {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  text-align: center ;
+  flex-wrap: wrap;
+  /* margin-top: -20px; */
+  margin-left: -20px;
 }
 
 .team {
-  border: 1px solid var(--main-bg-color);
-  background-color: var(--main-bg-color);
-  margin-bottom: 90px;
+  flex-basis: calc(100% /4-20px);
+  margin-left: 20px;
+  padding-bottom: 90px;
 }
+
+.team:nth-child(3){
+  margin-right: 0px;
+}
+
+
+.team-text {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  border:1px solid #EEEEEE;;
+  justify-content:space-between;
+}
+
 .section-footer {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--main-text-color);
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 .section-roll {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  /* margin-top: 30px; */
 }
 
 .section-indent {
@@ -234,6 +253,7 @@ button {
 
 .footer-list {
   background-color: var(--footer-bg-color);
+  padding-top: 20px;
 }
 .logo-footer {
   color: #EEEEEE;
