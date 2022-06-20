@@ -139,6 +139,8 @@ text-decoration: none;
   font-size: 44px;
   line-height:1.36;
   color: var(--main-bg-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 button {
@@ -180,7 +182,6 @@ button {
 .example {
     display: flex;
     justify-content: space-between;
-
 }
   
 
@@ -203,11 +204,10 @@ button {
   margin: 0px;
   list-style: none;
   display: flex;
-  margin-left: -20px;
+  justify-content: space-between;
 }
 
 .team {
-  flex-basis: calc(100% /4-20px);
   margin-left: 20px;
   padding-bottom: 90px;
 }
@@ -259,7 +259,7 @@ button {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 20px;
-  margin-left: 15px ;
+  /* margin-left: 15px ; */
   padding-top: 60px;
 }
 
