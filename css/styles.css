@@ -183,7 +183,10 @@ button {
     display: flex;
     justify-content: space-between;
 }
-  
+
+.section-work {
+  padding-bottom: 90px;
+}
 
 .section-progect {
   font-weight: 700;
@@ -322,6 +325,7 @@ img {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-bottom: -30px;
+  padding-bottom: 90px;
 }
 
 .holder > .item{
