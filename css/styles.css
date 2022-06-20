@@ -127,6 +127,7 @@ text-decoration: none;
 
 .content {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .main-section {
@@ -262,6 +263,11 @@ button {
   padding-top: 60px;
 }
 
+
+.address
+{
+  padding-bottom: 60px;
+}
 .address-footer {
   color: var(--main-bg-color);
   font-style: normal;
