@@ -202,8 +202,6 @@ button {
   margin: 0px;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  /* margin-top: -20px; */
   margin-left: -20px;
 }
 
@@ -213,7 +211,7 @@ button {
   padding-bottom: 90px;
 }
 
-.team:nth-child(3){
+.team:nth-child(4){
   margin-right: 0px;
 }
 
