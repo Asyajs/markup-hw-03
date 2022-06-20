@@ -211,13 +211,9 @@ button {
 }
 
 .team {
-  margin-left: 20px;
   padding-bottom: 90px;
 }
 
-.team:nth-child(4){
-  margin-right: 0px;
-}
 
 
 .team-text {
